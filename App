@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+//Aula dia 15/02
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text ('Minha primeira App'),
+          ),
+        body: Text('Hello world:)')
+        ),
+      )
+    );
+}
